@@ -1,0 +1,22 @@
+platform:ios, '8.0'
+target ‘xxx’ do
+	pod 'AFNetworking'
+	pod 'IQKeyboardManager'
+	pod 'MJExtension'
+	pod 'Masonry'
+	pod 'MJRefresh'
+	pod 'FMDB'
+	pod 'MBProgressHUD'
+	pod 'SDWebImage', '~>3.7'
+	pod 'BaiduMapKit'
+    #pod 'GTMBase64', '~> 1.0.0'
+    #pod 'CocoaSecurity'
+
+end
+
+target ‘xxx’ do
+    pod 'AFNetworking'
+    pod 'SDWebImage', '~>3.7'
+    pod 'Masonry'
+    pod 'MJRefresh'
+end

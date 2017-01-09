@@ -1,9 +1,9 @@
 //
 //  ViewController.h
-//  FF
+//  TestMyFavorite
 //
-//  Created by Tov_ on 17/1/9.
-//  Copyright © 2017年 TTT. All rights reserved.
+//  Created by Tov_ on 16/6/29.
+//  Copyright © 2016年 TTT. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
