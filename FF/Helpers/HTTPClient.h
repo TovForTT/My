@@ -1,14 +1,11 @@
 //
-//  BLHTTPClient.h
-//  BLHTTPClient
+//  HTTPClient.h
 //
 //  Created by Tov_ on 14-4-14.
-//  Copyright (c) 2014年 Fulian. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import "AFNetworking.h"
-#import "BLHttpParamsManager.h"
 #import "UIViewController+HttpResponse.h"
 #import "define.h"
 
@@ -28,7 +25,7 @@ typedef NS_ENUM(NSUInteger,HttpRequestType) {
     HttpRequestTypePost
 };
 
-@interface BLHTTPClient : NSObject
+@interface HTTPClient : NSObject
 
 
 +(BLHTTPClient *)shareInstance;

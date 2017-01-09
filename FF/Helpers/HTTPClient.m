@@ -1,19 +1,14 @@
 
-//  BLHTTPClient.m
-//  BLHTTPClient
+//  HTTPClient.m
 //
 //  Created by Tov_ on 14-4-14.
-//  Copyright (c) 2014年 Fulian. All rights reserved.
-//
 
-#import "BLHTTPClient.h"
+#import "HTTPClient.h"
 #import "AFNetworking.h"
 #import "define.h"
-#import "UploadParam.h"
-#import "LResponse.h"
 #import "MBProgressHUD.h"
 
-@implementation BLHTTPClient{
+@implementation HTTPClient{
 //    AFHTTPRequestOperationManager *af_httpRequestManager;
     AFHTTPSessionManager *af_session;
     NSMutableDictionary *dictionaryForConnectionTag;
